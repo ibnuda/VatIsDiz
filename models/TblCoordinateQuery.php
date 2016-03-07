@@ -3,9 +3,9 @@
 namespace app\models;
 
 /**
- * This is the ActiveQuery class for [[Coordinate]].
+ * This is the ActiveQuery class for [[TblCoordinate]].
  *
- * @see Coordinate
+ * @see TblCoordinate
  */
 class TblCoordinateQuery extends \yii\db\ActiveQuery
 {
@@ -17,7 +17,7 @@ class TblCoordinateQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return Coordinate[]|array
+     * @return TblCoordinate[]|array
      */
     public function all($db = null)
     {
@@ -26,7 +26,7 @@ class TblCoordinateQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return Coordinate|array|null
+     * @return TblCoordinate|array|null
      */
     public function one($db = null)
     {
